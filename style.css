@@ -134,7 +134,7 @@ main{
  }
  .footer{
     position: absolute;
-    bottom: -0.1rem;
+    bottom: -0.6rem;
     left: 15%;
     display: flex;
     align-items: center;
