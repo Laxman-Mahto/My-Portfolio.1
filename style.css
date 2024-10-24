@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    height: 500vh;
+}
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* dono esliye 0 kyuki jo byefault spce aa rha hai wo nhi chaiye,chaiye hoga toh khud kr lenge */
+    box-sizing: border-box;
+    font-family: "Rubik" , sans-serif;
+    /* font mujhe rubik chaiye jo portfolio k liye acha hota hai toh mai import kr
+    lunga eska lunga google se aur yha uper paste kra hua hai and by any chance import nhi hua then use sans serif*/
+    text-decoration: none;
+    list-style-type: none;
+}    
+body{
+    background:url(pexels-artempodrez-7232830.jpg);
+}
+header{
+    display: flex;
+    padding: 35px 10%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    font-size: 45px;
+    font-weight: 600;
+}
+nav{
+    display: flex;
+
+}
+nav a{
+    color: black;
+    font-weight: 500;
+    margin: 0 25px;
+    font-size: 18px;
+
+}
+.navbar a:hover {
+    color: red; /* Color on hover */
+     /* Optional background color on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+.a{
+    color: red;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+
+}
+.btn:hover{
+    color: red;
+}
+/* class name ko dot k sth krna hota hai  */
+.account-button{
+    background: linear-gradient(130deg,#383528,#191919);
+    color: #fff;
+    border: 1px solid #3b3b3b;
+    padding: 10px 20px; 
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+}
+.menu-icon{
+    font-size: 28px;
+    color: white;
+
+}
+
+/* main ek container hai ham usme chnages krenge ham info ko page k middle something mai lana chahte hai. */
+main{
+    display: flex;
+    margin: 0 15%;
+    margin-top: 100px;
+    align-items: center;
+    gap: 30px;
+}
+.home-text span{
+    padding: 5px 25px;
+    background: linear-gradient(130deg, #383536,#191919);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 100px;
+
+}
+.my-img{
+    height: 400px;
+    border-radius: 50%;
+    width: 400px;
+ }
+ .home-text h1{
+    font-size: 4rem; 
+    /* 1rem is 16px so its 112 px but hamne 7rem likha. */
+    margin: 25px 0;
+    /* mujhe mere naam k uper neeche space chaiye then margin use kra uper neeche se 25 px and side mai nhi chaiye toh 0. */
+    -webkit-text-stroke: 0.8px white;
+ }
+ .home-text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #2b2b2b;
+    margin-bottom: 30px;
+    line-height: 10px;
+ }
+ .btn{
+    padding: 14px 38px;
+    background-color: rgba(255, 217, 0, 0.534);
+    transition: all 0.6s ease-in-out;
+
+
+ }
+ .first-btn{
+    /* background-color: #e8e6e6; */
+    border: 2px solid #141414;
+    color: black;
+    size: 10px;
+    padding: 8px 25px;
+ }
+
+ .btn:hover{
+    transform:translatey(-5px);
+    color: black;
+    background: transparent;
+ }
+ .footer{
+    position: absolute;
+    bottom: -0.1rem;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;       
+ }
+ .footer{
+    font-size: 20px;
+    margin-right: 20px;
+
+ }
+ .social i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    border: 1px solid #3b3b3b;
+    border-radius: 40px;
+    color: black;
+    margin: 0px 7px;
+    transition: all 0.6s ease-in;
+
+ }
+ .social i:hover{
+    transform: translateY(-10px);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
